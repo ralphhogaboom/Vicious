@@ -1,0 +1,18 @@
+# Mob types that should respond when another mob targets a player.
+# These must match Bukkit EntityType names.
+allowed_mobs:
+  - ZOMBIE
+  - SKELETON
+  - CREEPER
+  - SPIDER
+  - HUSK
+  - DROWNED
+  - PILLAGER
+  - VINDICATOR
+  - WITCH
+
+# Time (in milliseconds) before a mob can be re-alerted
+cooldown_millis: 5000
+aggresssion_radius: 20
+follow_range: 64.0
+debug: true
